@@ -115,6 +115,7 @@ I also think that is I were to incorporate additional visual information, I woul
 **What I am envisioning/ what this can become?**
 
 I imagine an interactive visual archive or anatomy of internet aesthetics, inspired by the mapping and tracing methodology of Anatomy of an AI System. Instead of just presenting a network of aesthetic categories, I would like to investigate the relationships between their visual languages, cultural references, online communities, platforms, and commercial influences. I think for now, I am envisioning this as an interactive map/ archive that allows viewers to see how different aesthetics connect and evolve. 
+![alt text](internet_aesthetics_anatomy.png)
 
 \*\*\*\*\*\*\*\*\*\*\*\*
 
@@ -122,11 +123,11 @@ Option 2: Medical Imaging + Glitch Art– Aesthetics of Distortion
 
 **What data interests me?**
 
-I want to explore the visual relationship between medical imaging and glitch art, particularly how both can produce images characterized by distortion, fragmentation, noise, pixelation, and visual artifacts (this is a more abstract/ exploration project)
+The visual relationship between medical imaging and glitch art, particularly how both can produce images characterized by distortion, fragmentation, noise, pixelation, and visual artifacts has been of interest to me for a while. If I go this direction, this is definitely more of an abstract and exploratory project about the “image” itself. Things like how it is produced, what it looks like, and how we interpret it.
 
-Medical imaging transforms the human body into visual and numerical information, allowing us to observe structures that cannot ordinarily be seen. However, these images are not always perfect representations. Technical limitations, patient movement, and interference during image acquisition can introduce distortions that obscure anatomical information or complicate interpretation. On the other hand, glitch art often INTENTIONALLY produces similar forms of visual disruption through image manipulation, data corruption, and software-based processes, transforming technical errors into aesthetic expressions. 
+Medical imaging transforms the human body into visual and numerical information, allowing us to observe structures that cannot ordinarily be seen. Medical images are not always perfect representations. Technical limitations, patient movement, and interference during image acquisition can introduce artifacts that obscure anatomical information or complicate interpretation.Glitch art is often intentionally produces similar forms of visual disruption through image manipulation, data corruption, and software-based processes, transforming technical errors into aesthetic expressions.
 
-I find it fascinating that similar visual phenomena can be interpreted so differently depending on their context and origin. A distorted medical scan might be considered an imaging error, while a visually similar distortion in an artwork might be considered expressive or aesthetically compelling. I want to explore the similarities and differences, exploring/experimenting with how computational methods might reveal unexpected visual relationships between images produced for entirely different purposes.
+I find it fascinating that similar visual phenomena can be interpreted so differently depending on their context and origin. A distorted medical scan might be considered an imaging error, while a visually similar distortion in an artwork might be considered expressive or aesthetically compelling. I want to think about this tension and experiment with how computational methods might reveal unexpected visual relationships between images produced for entirely different purposes.
 
 **What datasets will I use?**
 
@@ -135,13 +136,17 @@ I am considering combining a medical imaging dataset with a collection of glitch
 Medical datasets
 * [Brain CT Medical Imaging Colorized Dataset — Kaggle](https://www.kaggle.com/datasets/shuvokumarbasakbd/brain-ct-medical-imaging-colorized-dataset)
 
-    * A collection focused on colorized medical imaging, including brain CT scans. Possibly look for examining color, contrast, and relationship between grayscale medical imagery and artificially introduced color
+    * A collection of colorized brain CT scans. Examining color, contrast, and the relationship between grayscale medical imagery and artificially introduced color.
 
 *   [Brain MRI Images — Kaggle](https://www.kaggle.com/datasets/ashfakyeafi/brain-mri-images) 
 
+    * A collection of brain MRI images that could provide material for exploring anatomical structures, texture, contrast, and visual variation.
+
 *   [Fundus Image Dataset for Vessel Segmentation — Kaggle](https://www.kaggle.com/datasets/nikitamanaenkov/fundus-image-dataset-for-vessel-segmentation) 
+    * Retinal images and vessel segmentation masks.The branching structures, networks, and patterns found within these images.
 
 *   [Brain Tumor MRI Dataset — Kaggle](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) 
+    * A collection of brain MRI images organized by tumor categories. Exploring how medical labels and classifications relate to visual characteristics.
     
         
 
@@ -190,38 +195,36 @@ I have been thinking a lot about the “image” and its technical production, i
 
 **Preprocessing steps**
 
-The medical and artistic collections would require different forms of preparation.
+The medical and artistic collections would require different forms of preparation. Although in a way they are also similar...
 
 For the medical imaging dataset:
 
-*   Selecting and downloading a manageable sample of MRI, CT and Fundus scans.
-    
-*   Understanding the original image formats and converting them into a consistent format if necessary.
-    
-*   Selecting comparable slices from the original and motion-corrupted scans.
-    
-*   Standardizing image dimensions and intensity ranges.
-    
-*   Identifying and organizing different types or severities of artifacts.
-    
-*   Preserving original labels and associated metadata.
-    
+*   Select and download a manageable sample of MRI, CT, and fundus images.
+*   Examine the original image formats, dimensions, color channels, and available metadata.
+*   Convert images into consistent formats where necessary while preserving the originals.
+*   Standardize image dimensions and intensity ranges for computational comparison.
+*   Identify and organize different visual characteristics and artifact types where possible.
+*   Preserve original labels, categories, and associated contextual information.
 
 For the glitch art collection:
 
-*   Manually collecting a representative sample of images from digital art archives.
-    
-*   Recording artist, source, and available contextual information.
-    
-*   Identifying different forms of distortion where possible.
-    
-*   Standardizing image formats and dimensions.
+*   Manually collect a representative sample of images from digital art archives.
+
+*   Record artist, source, title, and available contextual information.
+
+*   Identify different forms of distortion and manipulation where possible.
+
+*   Standardize image formats and dimensions for comparison while retaining the original files.
+
     
 
-I need to consider how differences in image acquisition, resolution, color, and preprocessing might influence computational comparisons. Medical scans and digital artworks are produced under very different conditions, so visual similarity would not necessarily indicate that they share the same underlying technical process. This project is definitely going to be a more exploratory visual comparison rather than a medical diagnostic or image-classification system.
+I will also need to consider how differences in image acquisition, resolution, color, and preprocessing might influence computational comparisons. Medical scans and digital artworks are produced under very different conditions, so visual similarity would not necessarily indicate that they share the same underlying technical process. 
 
-**What I am thinking this can be**
+**What could the final outcome look like?**
 
-I am not entirely sure on the “final” outcome of this, I know that I want to compare the medical imaging and glitch art. I am oddly drawn to this idea of an atlas or some kind of interactive visual. Not entirely sure yet. 
+I am still open/thinking about the final format, but I am increasingly interested in developing this as an experimental digital publication of sorts
 
-Something I was thinking of as a possible direction is that viewers could explore images through categories such as noise, fragmentation, pixelation, contrast, and spatial distortion, potentially navigating between images based on computationally identified visual similarities.
+Rather than presenting a conventional image gallery or comparison dashboard, I imagine an interactive research publication that brings together visual experiments, short essays, image collections, and computational investigations. It could be both a way to explore the datasets and a way to communicate the ideas that emerge from working with them.
+
+Ultimately, I am interested in creating something that sits between a visual archive, an experimental image "something", and a research publication. I want the project to explore how visual error, ambiguity, and distortion challenge our assumptions about what images communicate. 
+![alt text](medical_gltich_editorial.png)
