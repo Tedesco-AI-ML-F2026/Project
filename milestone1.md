@@ -132,21 +132,17 @@ I find it fascinating that similar visual phenomena can be interpreted so differ
 
 I am considering combining a medical imaging dataset with a collection of glitch art. 
 
-Primary medical dataset: [MR-ART — OpenNeuro](https://openneuro.org/datasets/ds004173/versions/1.0.2)
+Medical datasets
+* [Brain CT Medical Imaging Colorized Dataset — Kaggle](https://www.kaggle.com/datasets/shuvokumarbasakbd/brain-ct-medical-imaging-colorized-dataset)
 
-*   [https://openneuro.org/datasets/ds004173/versions/1.0.2](https://openneuro.org/datasets/ds004173/versions/1.0.2) 
+    * A collection focused on colorized medical imaging, including brain CT scans. Possibly look for examining color, contrast, and relationship between grayscale medical imagery and artificially introduced color
+
+*   [Brain MRI Images — Kaggle](https://www.kaggle.com/datasets/ashfakyeafi/brain-mri-images) 
+
+*   [Fundus Image Dataset for Vessel Segmentation — Kaggle](https://www.kaggle.com/datasets/nikitamanaenkov/fundus-image-dataset-for-vessel-segmentation) 
+
+*   [Brain Tumor MRI Dataset — Kaggle](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) 
     
-*   Brain MRI scans from 148 healthy adults.
-    
-*   Contains paired motion-free and motion-corrupted scans of the same participants.
-    
-*   Includes images with varying degrees of motion-related artifacts.
-    
-*   Particularly useful for examining ghosting, blurring, repeated anatomical structures, and motion distortion.
-    
-*   Possible alternative: [Synthetic MRI Artifact Dataset — Zenodo](https://zenodo.org/records/19435085)
-    
-    *   [https://zenodo.org/records/19435085](https://zenodo.org/records/19435085) 
         
 
 Glitch Art References
@@ -198,7 +194,7 @@ The medical and artistic collections would require different forms of preparatio
 
 For the medical imaging dataset:
 
-*   Selecting and downloading a manageable sample of MRI scans.
+*   Selecting and downloading a manageable sample of MRI, CT and Fundus scans.
     
 *   Understanding the original image formats and converting them into a consistent format if necessary.
     
