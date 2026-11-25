@@ -1,0 +1,13 @@
+text,model,train,test
+overview,LogisticRegression,0.944,0.432
+description,MultinomialNB,0.793,0.42
+overview,MultinomialNB,0.923,0.407
+description,SVC (linear),0.889,0.407
+overview,SVC (linear),0.938,0.395
+description,LogisticRegression,0.907,0.383
+description,RandomForest,1.0,0.37
+overview,RandomForest,1.0,0.333
+tags_text,MultinomialNB,0.923,0.321
+tags_text,LogisticRegression,0.948,0.296
+tags_text,SVC (linear),0.929,0.272
+tags_text,RandomForest,0.975,0.259

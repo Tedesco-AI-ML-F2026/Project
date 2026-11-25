@@ -1,0 +1,13 @@
+text,ngrams,svd_components,link_hits
+description,"(1, 2)",50,0.202
+description,"(1, 1)",50,0.2
+description,"(1, 1)",10,0.108
+description,"(1, 2)",10,0.106
+tags_text,"(1, 1)",50,0.082
+tags_text,"(1, 2)",50,0.076
+tags_text,"(1, 2)",10,0.062
+tags_text,"(1, 1)",10,0.056
+overview,"(1, 2)",50,0.034
+overview,"(1, 1)",50,0.03
+overview,"(1, 1)",10,0.022
+overview,"(1, 2)",10,0.016
